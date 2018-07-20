@@ -36,7 +36,7 @@ spec:
         app: hello-k8s
     spec:
       containers:
-      - image: 10.0.1.4:5000/hello-k8s:latest
+      - image: 10.0.1.4:5000/hello-k8s:edge
         name: hello-k8s
         ports:
         - containerPort: 80
